@@ -6,7 +6,7 @@ using T05.Contracts;
 
 namespace T04.Models
 {
-   public class Citizen : IIdentifiable, IBirthable, IB
+   public class Citizen : IIdentifiable, IBirthable
     {
         public Citizen(string id, string name, int age, string birthdate)
         {
